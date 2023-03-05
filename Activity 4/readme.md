@@ -1,4 +1,4 @@
-Activity 4:
+# Activity 4:
 
 Create work item
 
@@ -17,7 +17,7 @@ Choose whether to include work items in your branch. If you select this option, 
 
 Click on the "Create" button to create your new branch.
 
-Sync to VS
+## Sync to VS
 Open Visual Studio and navigate to your Git repository.
 
 Open the Team Explorer pane by clicking on the "Team Explorer" button in the toolbar.
@@ -38,9 +38,7 @@ If you want to push your changes back to the remote branch, simply click on the 
 
 If there are any conflicts between your local branch and the remote branch, Visual Studio will prompt you to resolve the conflicts before pushing your changes.
 
-Make and commit changes
-create a new file in the repository
-stage it using visual studio
+## Make and commit changes
 
 Open Visual Studio and navigate to your Git repository.
 
@@ -84,7 +82,8 @@ After you've committed your changes, they will be available in the "Commits" vie
 Finally, click on the "Push" button in the Team Explorer pane to push your changes to the Azure DevOps Git repository.
 
 
-Create pull request
+## Create pull request
+
 Navigate to the branch that you want to create a pull request for.
 
 Click on the "Create Pull Request" button in the upper-right corner of the branch page.
@@ -106,7 +105,8 @@ After you've created your pull request, it will be available for review by the t
 Once your changes have been approved, you can merge your changes into the target branch by clicking on the "Complete" button in the pull request page. If there are any conflicts between your changes and the target branch, you'll need to resolve them before you can complete the pull request.
 
 
-Approve pull request
+## Approve pull request
+
 Navigate to the pull request that you want to approve.
 
 Review the changes that are included in the pull request by clicking on the "Files changed" tab.
@@ -125,6 +125,7 @@ Finally, click on the "Approve" button to approve the pull request.
 
 As part of the approval process, you can also select other options such as:
 
+## Other Info
 "Reset approval" - this will remove your approval from the pull request.
 "Wait for author" - this will pause the pull request until the author resumes work on it.
 "Complete" - this will merge the changes from the pull request into the target branch.
