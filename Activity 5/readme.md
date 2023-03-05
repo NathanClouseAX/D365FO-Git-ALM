@@ -1,4 +1,4 @@
-Activity 5 – Create and resolve Merge Conflict
+# Activity 5 – Create and resolve Merge Conflict
 
 follow steps from activity 4 but perform the following:
 
@@ -7,5 +7,5 @@ follow steps from activity 4 but perform the following:
 3. create branch 2
 4. modify the same file from branch 1 to contain a different change
 
-PR branch 2, approve
-PR branch 1, review
+create PR for branch 2, approve
+create PR branch 1, review
