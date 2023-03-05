@@ -1,21 +1,21 @@
-Activity 2:
-create a branch,
+# Activity 2:
 
+create a branch,
 
 Use everything we just went through to create a DevOps project, create repo with initialization, map it, add a yaml build pipeline and .gitignore. commit changes, push
 
-#Create Instance and Project
+## Create Instance and Project
 Create an instance: https://learn.microsoft.com/en-us/azure/devops/user-guide/sign-up-invite-teammates?view=azure-devops#sign-up-with-a-personal-microsoft-account
 
-create a project: Once you create your first organization, you will be prompted to create a project. Be sure to select "private" and use Git.
+## create a project: Once you create your first organization, you will be prompted to create a project. Be sure to select "private" and use Git.
 otherwise to go the organization then click "new project" in the upper right
 expand "advanced" and confirm source control is Git
 Click create.
 
-#Create Repo and Init
+## Create Repo and Init
 init repo: go to repos > File, check add readMe, add VisualStudio .gitignore, click initialize
 
-#Map to Dev Box
+## Map to Dev Box
 Connect to Main: use VS to map locally (not dev machine), update .gitignore with details below.
 
 update VS location for where to create projects (options > project and solutions > locations)
@@ -55,7 +55,7 @@ Select your repo ( if prompted )
 select "existing azure pipeline yaml file" ( if prompted ) then select file
 click create
 
-#Add branch protections
+## Add branch protections
 go to project settings
 then go to permissions then click on build administrators, click on members, click add, find "(project name) build service" then click save
 First add repo build service to build admins (search on project name)
